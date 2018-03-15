@@ -397,7 +397,7 @@ h2.box-header.align-left
 {
 	display: block;
 	content: "";
-	background: #1E69B8;
+	background: #ce700e;
 	width: 40px;
 	height: 2px;
 	margin-top: 13px;
@@ -1190,7 +1190,7 @@ body.overlay .background-overlay
 {
 	position: relative;
 	z-index: 2;
-	color: #1E69B8;
+	color: #CE700E;
 	clear: both;
 	float: none;
 	display: block;
@@ -1202,12 +1202,12 @@ body.overlay .background-overlay
 .hexagon 
 {
 	position: relative;
-	width: 116px; 
+	width: 116px;
 	height: 66.97px;
 	background-color: transparent;
 	margin: 33.49px 0;
-	border-left: solid 2px #1E69B8;
-	border-right: solid 2px #1E69B8;
+	border-left: 2px solid #ce700e;
+	border-right: 2px solid #ce700e;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -1217,6 +1217,8 @@ body.overlay .background-overlay
 	-webkit-transform: rotate(0.0001deg);
 	-ms-transform: rotate(0.0001deg);
 	-webkit-backface-visibility: hidden;
+	border-top-color: #ce700e;
+	border-bottom-color: #ce700e;
 }
 .hexagon:before,
 .hexagon:after 
@@ -1238,14 +1240,18 @@ body.overlay .background-overlay
 .hexagon:before
 {
 	top: -41.0122px;
-	border-top: solid 2.8284px #1E69B8;
-	border-right: solid 2.8284px #1E69B8;
+	border-top: 2.8284px solid #CE700E;
+	border-right: 2.8284px solid #CE700E;
+	border-bottom-color: #CE700E;
+	border-left-color: #CE700E;
 }
 .hexagon:after 
 {
 	bottom: -41.0122px;
-	border-bottom: solid 2.8284px #1E69B8;
-	border-left: solid 2.8284px #1E69B8;
+	border-bottom: 2.8284px solid #CE700E;
+	border-left: 2.8284px solid #CE700E;
+	border-top-color: #CE700E;
+	border-right-color: #CE700E;
 }
 .hexagon.small div::before
 {
@@ -3398,4 +3404,8 @@ body.lock-position
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
+}
+.features-list.big li .box-header.page-margin-top {
+}
+.features-list.big li .box-header.page-margin-top {
 }

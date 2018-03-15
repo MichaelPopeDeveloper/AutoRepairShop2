@@ -520,11 +520,11 @@
 		top: 0;
 		right: 0;
 		margin: 0;
+		-ms-transform: rotate(90deg);
 		padding: 0;
 		-webkit-transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
 		-o-transform: rotate(90deg);
-		-ms-transform: rotate(90deg);
 		transform: rotate(90deg);
 	}
 	.collapsible-mobile-submenus>li a.template-arrow-menu::before
